@@ -6,8 +6,25 @@
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
 }
 
 body {
   margin: 0;
+  /*font-size: 2em;*/
+}
+
+main {
+  background-color: lavender;
+}
+
+img {
+  max-width: 100%;
+  /* Fix whitespace at gutter */
+  vertical-align: middle;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
